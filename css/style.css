@@ -992,6 +992,9 @@ nav li a:hover::after {
 }
 
 @media (max-width: 575px) {
+  .bullet-item .bullet-img {
+    min-height: auto;
+  }
   .cta {
     overflow: hidden;
   }

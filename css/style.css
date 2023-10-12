@@ -570,8 +570,6 @@ nav li a:hover::after {
 .bullet-item .bullet-img img {
   height: 100%;
   width: 100%;
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
 .bullet-item .bullet-img video {

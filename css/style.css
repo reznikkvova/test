@@ -594,7 +594,6 @@ nav li a:hover::after {
 @media (max-width: 1399px) {
   .bullet-item {
     padding: 16px;
-    height: auto;
   }
 
   .bullet-item h5 {
@@ -990,9 +989,6 @@ nav li a:hover::after {
 }
 
 @media (max-width: 575px) {
-  .bullet-item .bullet-img {
-    min-height: 0;
-  }
   .cta {
     overflow: hidden;
   }

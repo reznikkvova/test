@@ -568,8 +568,8 @@ nav li a:hover::after {
 }
 
 .bullet-item .bullet-img img {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .bullet-item .bullet-img video {
@@ -991,7 +991,7 @@ nav li a:hover::after {
 
 @media (max-width: 575px) {
   .bullet-item .bullet-img {
-    min-height: auto;
+    min-height: 0;
   }
   .cta {
     overflow: hidden;
